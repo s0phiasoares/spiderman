@@ -52,3 +52,4 @@ while True:
     jogar_novamente = input("\nQuer jogar de novo? (s/n): ").lower()
     if jogar_novamente != "s":
         break
+    
