@@ -2,8 +2,7 @@ import random
 import time
 
 saldo = float(input("Digite o valor que deseja apostar: R$"))  # saldo inicial
-while saldo > 0 :
-     print(f"\nSeu saldo atual: R$ {saldo:.2f}")
+
 
 
 simbolos = ["🍒", "⭐", "🔔", "7️⃣", "🍋", "🍉"]
