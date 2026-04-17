@@ -1,7 +1,11 @@
 import random
 import time
 
-saldo = 100  # saldo inicial
+saldo = float(input("Digite o valor que deseja apostar: R$"))  # saldo inicial
+while saldo > 0 :
+     print(f"\nSeu saldo atual: R$ {saldo:.2f}")
+
+
 simbolos = ["🍒", "⭐", "🔔", "7️⃣", "🍋", "🍉"]
 
 def girar_rolo():
